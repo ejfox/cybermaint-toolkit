@@ -1,0 +1,15 @@
+{
+  "name": "cybermaint-toolkit",
+  "version": "1.0.0",
+  "description": "Reusable tools for cybernetic CLI applications",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "EJ Fox <ejfox@ejfox.com>",
+  "license": "MIT",
+  "dependencies": {
+    "blessed": "^0.1.81",
+    "fs-extra": "^11.2.0"
+  }
+}
