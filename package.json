@@ -4,12 +4,17 @@
   "description": "Reusable tools for cybernetic CLI applications",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "generate-docs": "documentation build index.js -f md > README.md"
   },
   "author": "EJ Fox <ejfox@ejfox.com>",
   "license": "MIT",
   "dependencies": {
     "blessed": "^0.1.81",
     "fs-extra": "^11.2.0"
+  },
+  "devDependencies": {
+    "documentation": "^14.0.3",
+    "jsdoc-to-markdown": "^8.0.1"
   }
 }
